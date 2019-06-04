@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+<!-- Menu-->
+    <string name="singlePlayer">Single Player</string>
+    <string name="twoPlayer">Two Players</string>
+    <!-- Main Activity-->
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="defaultButton"> </string>
+    <string name="winO">O wins!</string>
+    <string name="winX">X wins!</string>
+    <string name="reset">Reset</string>
+    <string name="scoreO">O Score: %1$d</string>
+    <string name="scoreX">X Score: %1$d</string>
+    <string name = "surprise">OK you can stop pressing me now </string>
+</resources>
