@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                     if (((Button) view).getText().toString().equals(""))
 
                         btn.setText(getResources().getString(R.string.x));
-                    btn.setText(getResources().getString(R.string.o));
+
 
                     countNumber++;
                     winCheck();
@@ -221,6 +221,15 @@ public class MainActivity extends AppCompatActivity {
             else if(bt[2][0].equals(bt[2][1]) && bt[2][0].equals(x) && bt[2][2].equals(empty)) {
                     buttons[2][2].setText(getResources().getString(R.string.o));
                 }
+            else if (bt[0][0].equals(bt[1][0]) && bt[1][0].equals(x) && bt[2][0].equals(empty)){
+                buttons[2][0].setText(getResources().getString(R.string.o));
+            }
+            else if (bt[0][1].equals(bt[1][1]) && bt[1][1].equals(x) && bt[1][2].equals(empty)){
+                buttons[2][0].setText(getResources().getString(R.string.o));
+            }
+            else if (bt[0][2].equals(bt[1][2]) && bt[1][2].equals(x) && bt[2][2].equals(empty)){
+                buttons[2][2].setText(getResources().getString(R.string.o));
+            }
  //random
               else {
                 int column = (int) (Math.random() * ((2) + 1));
